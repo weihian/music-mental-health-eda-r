@@ -1,7 +1,7 @@
 
 # Music Preferences and Mental Health Analysis (R)
 
-## 📊 Project Overview
+## Project Overview
 
 This project explores the relationship between **music preferences, listening behavior, and mental health indicators** using R.  
 The analysis is based on a survey dataset (`music.csv`) and investigates how factors such as age, favorite genres, listening duration, and musical engagement relate to mental health conditions including **anxiety, depression, insomnia, and OCD**.
@@ -10,7 +10,7 @@ The project applies **data preprocessing, exploratory data analysis (EDA), visua
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The main goals of this project are to:
 
@@ -24,7 +24,7 @@ The main goals of this project are to:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -33,8 +33,10 @@ The main goals of this project are to:
 └── README.md     # Project documentation
 ```
 
-##Methodology & Analysis
-###1. Data Loading & Preprocessing
+---
+
+## Methodology & Analysis
+### 1. Data Loading & Preprocessing
 
 Imported survey data using read.csv
 
@@ -52,7 +54,7 @@ Late Adulthood
 
 Handled missing and empty values
 
-###2. Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 
 Summary statistics using summary()
 
@@ -64,13 +66,13 @@ Hmisc
 
 DataExplorer
 
-###3. Streaming Service Usage by Age Group
+### 3. Streaming Service Usage by Age Group
 
 Stacked and proportional bar charts
 
 Identified dominant streaming platforms across age categories
 
-###4. Anxiety and Music Preferences
+### 4. Anxiety and Music Preferences
 
 Focused on respondents with high anxiety scores (Anxiety > 8)
 
@@ -78,7 +80,7 @@ Analyzed favorite music genres
 
 Examined perceived effects of music on mental health among Rock listeners
 
-###5. Mental Health Correlation Analysis
+### 5. Mental Health Correlation Analysis
 
 Pearson correlation analysis among:
 
@@ -92,7 +94,7 @@ OCD
 
 Visualized correlation matrices using corrplot
 
-###6. Listening Duration and Mental Health
+### 6. Listening Duration and Mental Health
 
 Compared mental health scores between:
 
@@ -102,19 +104,19 @@ Long listeners (> 5 hours/day)
 
 Visualized mean differences using grouped bar charts
 
-###7. Genre Preferences and Age Categories
+### 7. Genre Preferences and Age Categories
 
 Analyzed probability distributions of favorite genres across age groups
 
 Conducted age distribution analysis for Pop music listeners
 
-###8. Musical Engagement
+### 8. Musical Engagement
 
 Examined likelihood of being an instrumentalist or composer by age group
 
 Analyzed frequency of listening to various sub-genres among Pop listeners
 
-###9. Listening Time Comparison
+### 9. Listening Time Comparison
 
 Compared average daily listening time between:
 
@@ -122,7 +124,9 @@ Pop music listeners
 
 Overall respondent population
 
-##Visualizations
+---
+
+## Visualizations
 
 Static visualizations using ggplot2
 
@@ -130,7 +134,9 @@ Interactive charts using plotly
 
 Correlation heatmaps using corrplot
 
-##Technologies & Libraries
+---
+
+## Technologies & Libraries
 
 Language: R
 
@@ -150,7 +156,9 @@ skimr
 
 Hmisc
 
-##How to Run the Project
+---
+
+## How to Run the Project
 
 Clone the repository:
 
