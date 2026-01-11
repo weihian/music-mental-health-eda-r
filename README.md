@@ -1,5 +1,3 @@
-# music-mental-health-eda-r
-Exploratory data analysis of music preferences and listening behavior to understand their relationship with mental health indicators using R.
 
 # Music Preferences and Mental Health Analysis (R)
 
@@ -33,6 +31,7 @@ The main goals of this project are to:
 ├── RCW.R          # Main R script containing all analysis and visualizations
 ├── music.csv     # Dataset (not included in repo if restricted)
 └── README.md     # Project documentation
+```
 
 ##Methodology & Analysis
 ###1. Data Loading & Preprocessing
